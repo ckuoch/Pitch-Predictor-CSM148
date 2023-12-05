@@ -1,0 +1,65 @@
+Epoch [1/10], Loss: 0.805010974407196
+Epoch [2/10], Loss: 0.6336614489555359
+Epoch [3/10], Loss: 0.6870983242988586
+Epoch [4/10], Loss: 0.7107098698616028
+Epoch [5/10], Loss: 0.5914910435676575
+Epoch [6/10], Loss: 0.71561199426651
+Epoch [7/10], Loss: 0.6539461612701416
+Epoch [8/10], Loss: 0.5455970764160156
+Epoch [9/10], Loss: 0.6708222031593323
+Epoch [10/10], Loss: 0.5865330696105957
+Neural Network Fold 1, Accuracy: 0.609798207019106
+Epoch [1/10], Loss: 0.6253812313079834
+Epoch [2/10], Loss: 0.6205092668533325
+Epoch [3/10], Loss: 0.6156474947929382
+Epoch [4/10], Loss: 0.6032259464263916
+Epoch [5/10], Loss: 0.6182339191436768
+Epoch [6/10], Loss: 0.6070110201835632
+Epoch [7/10], Loss: 0.711505651473999
+Epoch [8/10], Loss: 0.8281320333480835
+Epoch [9/10], Loss: 0.6970634460449219
+Epoch [10/10], Loss: 0.5894615650177002
+Neural Network Fold 2, Accuracy: 0.6105564617888202
+Epoch [1/10], Loss: 0.5604103207588196
+Epoch [2/10], Loss: 0.5593127012252808
+Epoch [3/10], Loss: 0.7411045432090759
+Epoch [4/10], Loss: 0.6211128234863281
+Epoch [5/10], Loss: 0.7856659293174744
+Epoch [6/10], Loss: 0.6914693117141724
+Epoch [7/10], Loss: 0.7401818037033081
+Epoch [8/10], Loss: 0.6916411519050598
+Epoch [9/10], Loss: 0.7055114507675171
+Epoch [10/10], Loss: 0.6035488843917847
+Neural Network Fold 3, Accuracy: 0.6104468267948314
+Epoch [1/10], Loss: 0.5116650462150574
+Epoch [2/10], Loss: 0.7389727830886841
+Epoch [3/10], Loss: 0.6212950944900513
+Epoch [4/10], Loss: 0.6233659982681274
+Epoch [5/10], Loss: 0.6341769695281982
+Epoch [6/10], Loss: 0.6178610324859619
+Epoch [7/10], Loss: 0.6525792479515076
+Epoch [8/10], Loss: 0.7313815951347351
+Epoch [9/10], Loss: 0.7604643702507019
+Epoch [10/10], Loss: 0.5851362943649292
+Neural Network Fold 4, Accuracy: 0.6104215515866998
+Epoch [1/10], Loss: 0.7087970972061157
+Epoch [2/10], Loss: 0.7336779236793518
+Epoch [3/10], Loss: 0.6316747069358826
+Epoch [4/10], Loss: 0.6933110952377319
+Epoch [5/10], Loss: 0.650243878364563
+Epoch [6/10], Loss: 0.538139820098877
+Epoch [7/10], Loss: 0.8826549649238586
+Epoch [8/10], Loss: 0.708086371421814
+Epoch [9/10], Loss: 0.5966852307319641
+Epoch [10/10], Loss: 0.5225820541381836
+Neural Network Fold 5, Accuracy: 0.6098577200206868
+Average Neural Net Cross-Validation Score: 0.610216153442029
+Logistic Regression Training Accuracy: 0.6001861809267984
+Logistic Regression Accuracy: 0.6000125986897362
+Random Forest Training Accuracy: 0.6118819827568776
+Random Forest Accuracy: 0.6106934878772607
+Decision Tree Training Accuracy: 0.6118843158511984
+Decision Tree Accuracy: 0.6106339940646173
+Logistic Regression Average Cross-validation Score: 0.5999133455310932
+Random Forest Average Cross-validation Score: 0.611147192971423
+Decision Tree Average Cross-validation Score: 0.6111303946939464
