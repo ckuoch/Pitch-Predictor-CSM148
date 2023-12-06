@@ -91,9 +91,9 @@ for fold, (train_index, val_index) in enumerate(kf.split(X_train_tensor)):
     # Training loop
     for epoch in range(num_epochs):
         model.train()
-        for inputs, labels in train_loader:
-            outputs = model(inputs)
-            loss = criterion(outputs, labels)
+        for batch_x, batch_y in train_loader:
+            outputs = model(batch_x)
+            loss = criterion(outputs, batch_y)
 
             optimizer.zero_grad()
             loss.backward()
@@ -106,22 +106,19 @@ for fold, (train_index, val_index) in enumerate(kf.split(X_train_tensor)):
         all_preds = []
         all_labels = []
 
-        for inputs, labels in val_loader:
-            outputs = model(inputs)
+        for batch_x, batch_y in val_loader:
+            outputs = model(batch_x)
             _, preds = torch.max(outputs, 1)
             all_preds.extend(preds.numpy())
-            all_labels.extend(labels.numpy())
+            all_labels.extend(batch_y.numpy())
 
-    # Calculate accuracy for the fold
     accuracy = accuracy_score(all_labels, all_preds)
     print(f"Fold {fold + 1}, Accuracy: {accuracy}")
-
-    # Save accuracy for later analysis
     accuracy_scores.append(accuracy)
 
 # Calculate and print the average accuracy across folds
 average_accuracy = sum(accuracy_scores) / num_folds
-print(f"Average Neural Net Accuracy: {average_accuracy}")
+print(f"Neural Net Cross Validation Score: {average_accuracy}")
 
 # Logistic Regression
 lr_model = LogisticRegression(C = 1, max_iter = 1000)
