@@ -4,8 +4,6 @@
 
 > pitching_preprocessing notebook contains all code to preprocess data in the original pitching CSV. pitching.csv is the resulting data after running this notebook.
 
-> pitching.ipynb contains all code creating graphics about models and experimental model training 
-
 > Output.txt is a sample output of the script
 
 - This repo only contains source code for viewing purposes. Does not include dependencies required to run script
